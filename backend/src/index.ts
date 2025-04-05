@@ -52,7 +52,7 @@ app.post("/api/v1/signin", async (c) => {
 });
 
 app.post("/api/v1/blog", (c) => {
-  return c.text("leave this");
+  return c.text("blogs updated");
 });
 app.put("/api/v1/blog", (c) => {
   return c.text("jo");
